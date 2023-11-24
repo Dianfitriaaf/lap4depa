@@ -1,3 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 header{
     flex-direction: column;
     background-color: blue;
@@ -16,7 +22,7 @@ container{
 nav a{
     display: flex;
     justify-content: center;
-    background-color: rgba(46, 26, 0);
+    background-color: rgb(135, 130, 124);
     padding: 10px 0;
 }
 nav a:hover{
@@ -36,3 +42,6 @@ footer{
         bottom: 0;
         width: 100%;
     }
+h1,h2,h3{
+    color:rgb(244, 225, 225)
+}
